@@ -1,0 +1,85 @@
+.compliance-page {
+  padding: 2rem;
+  background-color: #f9fafb;
+  font-family: Arial, sans-serif;
+}
+
+.compliance-banner {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.compliance-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.compliance-section h2 {
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.compliance-section ul li {
+  margin-bottom: 8px;
+}
+
+.compliance-section a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.compliance-section a:hover {
+  text-decoration: underline;
+}
+
+.compliance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.compliance-table th, .compliance-table td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.officer-box p {
+  margin: 6px 0;
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.success-msg {
+  color: #16a34a;
+  font-weight: bold;
+}

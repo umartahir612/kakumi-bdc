@@ -1,0 +1,187 @@
+/* General Page Styling */
+.home {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0, 52, 102, 0.8), rgba(0, 52, 102, 0.8)),
+    url("https://images.unsplash.com/photo-1622495897973-9b8a1f3f9adf") center/cover
+      no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.hero-buttons .btn-primary,
+.hero-buttons .btn-secondary {
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.btn-secondary {
+  background: #fff;
+  color: #003366;
+  border: 2px solid #003366;
+}
+
+.btn-secondary:hover {
+  background: #003366;
+  color: #fff;
+}
+
+/* Exchange Rates */
+.rates {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+.rates h2 {
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.rates table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 700px;
+}
+
+.rates th,
+.rates td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.rates th {
+  background: #003366;
+  color: white;
+}
+
+.rates tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* About */
+.about {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+/* Services */
+.services {
+  padding: 50px 20px;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.service-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  background: #007bff;
+  color: white;
+}
+
+/* Why Choose Us */
+.why {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.why h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+.why ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why li {
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 20px;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #25d366;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-whatsapp:hover {
+  background: #128c7e;
+}
+
+/* Footer */
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,23 @@
+:root {
+  --brand-blue: #004080;
+  --brand-white: #ffffff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--brand-white);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+footer {
+  background-color: var(--brand-blue);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}

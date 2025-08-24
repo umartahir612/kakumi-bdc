@@ -1,0 +1,98 @@
+/* General Page */
+.rate-page {
+  padding: 2rem;
+  background-color: #f9fafb;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Banner */
+.rate-banner {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+}
+
+/* Table */
+.rate-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.rate-table th, .rate-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.rate-table th {
+  background: #f1f5f9;
+  font-weight: bold;
+  color: #374151;
+}
+
+.rate-table tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.rate-table td.buy {
+  color: #16a34a; /* green */
+  font-weight: 600;
+}
+
+.rate-table td.sell {
+  color: #dc2626; /* red */
+  font-weight: 600;
+}
+
+/* Converter */
+.converter-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.converter-box input {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 8px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.converter-box button {
+  background: #2563eb;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.converter-box button:hover {
+  background: #1d4ed8;
+}
+
+.converter-box p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Chart Section */
+.chart-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}

@@ -1,0 +1,90 @@
+.contact-page {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+}
+
+.contact-banner {
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info, .contact-form, .social-links, .faq-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact-info h2, 
+.contact-form h2, 
+.social-links h2, 
+.faq-section h2 {
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.map-container {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.contact-form button {
+  background: #2563eb;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background: #1d4ed8;
+}
+
+.success-msg {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.social-links a {
+  display: block;
+  margin-bottom: 8px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.faq-section details {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.faq-section summary {
+  font-weight: bold;
+  color: #111827;
+}
+
+.faq-section p {
+  margin-top: 5px;
+  color: #374151;
+}
