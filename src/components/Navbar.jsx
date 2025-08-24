@@ -18,7 +18,7 @@ function Navbar() {
       <div className="container-fluid">
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <img
-            src="/logo192.png" // <-- change to your logo path
+            src="/logo.png" // <-- change to your logo path
             alt="Kakumi BDC"
             style={{ height: "30px", marginRight: "10px" }}
           />
