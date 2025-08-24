@@ -177,7 +177,7 @@ const Services = () => {
       <div className="cta">
         <h2>Need a Currency Exchange Today?</h2>
         <a
-          href="https://wa.me/2347064819086"
+          href="https://wa.me/2348037869368"
           className="btn-primary"
           target="_blank"
           rel="noopener noreferrer"

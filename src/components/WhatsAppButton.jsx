@@ -2,7 +2,7 @@ import React from 'react';
 
 function WhatsAppButton() {
   return (
-    <a href="https://wa.me/2348060000000" target="_blank" rel="noopener noreferrer"
+    <a href="https://wa.me/2348037869368" target="_blank" rel="noopener noreferrer"
        style={{
          position: 'fixed',
          bottom: '20px',

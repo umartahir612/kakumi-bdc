@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -10,8 +11,8 @@ const Home = () => {
           <h1>KAKUMI BDC LTD</h1>
           <p>Trusted Bureau de Change in Abuja</p>
           <div className="hero-buttons">
-            <button className="btn-primary">Check Rates</button>
-            <button className="btn-secondary">Contact Us</button>
+            <Link to="/rates" className="btn btn-primary">Check Rates</Link>
+            <Link to="/contact" className="btn btn-primary">Contact Us</Link>
           </div>
         </div>
       </section>
@@ -36,7 +37,7 @@ const Home = () => {
             <tr>
               <td>GBP</td>
               <td>2,100</td>
-              <td>2,120</td>
+              <td>2,130</td>
             </tr>
             <tr>
               <td>EUR</td>
@@ -83,7 +84,7 @@ const Home = () => {
       <section className="contact">
         <h2>Contact Us</h2>
         <p>
-          📍 Suite 13, Ground Floor, Wuse Zone 4, Abuja <br />
+          📍 Suite 13, Zone 4 Plaza, Wuse Zone 4, Abuja <br />
           📞 +234 803 786 9368<br />
           ✉️ infor@kakumibdc.com
         </p>
